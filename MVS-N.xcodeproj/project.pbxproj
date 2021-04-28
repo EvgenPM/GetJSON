@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		84285C9F25F6B29100B99C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84285C9E25F6B29100B99C00 /* AppDelegate.swift */; };
 		84285CA125F6B29100B99C00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84285CA025F6B29100B99C00 /* SceneDelegate.swift */; };
-		84285CA325F6B29100B99C00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84285CA225F6B29100B99C00 /* ViewController.swift */; };
-		84285CA625F6B29100B99C00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84285CA425F6B29100B99C00 /* Main.storyboard */; };
+		84285CA325F6B29100B99C00 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84285CA225F6B29100B99C00 /* CommentsViewController.swift */; };
+		84285CA625F6B29100B99C00 /* Comments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84285CA425F6B29100B99C00 /* Comments.storyboard */; };
 		84285CA825F6B29200B99C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84285CA725F6B29200B99C00 /* Assets.xcassets */; };
 		84285CAB25F6B29200B99C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84285CA925F6B29200B99C00 /* LaunchScreen.storyboard */; };
+		84285CBE25F809B000B99C00 /* Commentscell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84285CBD25F809B000B99C00 /* Commentscell.swift */; };
+		84285CC025F8162000B99C00 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84285CBF25F8162000B99C00 /* Comment.swift */; };
+		84285CC325F819FF00B99C00 /* Networkservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84285CC225F819FF00B99C00 /* Networkservice.swift */; };
+		84285CC625F9422E00B99C00 /* CommentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84285CC525F9422E00B99C00 /* CommentNetworkService.swift */; };
+		84285CC825F943C400B99C00 /* GetCommentResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84285CC725F943C400B99C00 /* GetCommentResponce.swift */; };
+		84285CCA25F9474600B99C00 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84285CC925F9474600B99C00 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84285C9B25F6B29100B99C00 /* MVS-N.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVS-N.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84285C9E25F6B29100B99C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84285CA025F6B29100B99C00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84285CA225F6B29100B99C00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84285CA525F6B29100B99C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84285CA225F6B29100B99C00 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		84285CA525F6B29100B99C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Comments.storyboard; sourceTree = "<group>"; };
 		84285CA725F6B29200B99C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84285CAA25F6B29200B99C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84285CAC25F6B29200B99C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84285CBD25F809B000B99C00 /* Commentscell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commentscell.swift; sourceTree = "<group>"; };
+		84285CBF25F8162000B99C00 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		84285CC225F819FF00B99C00 /* Networkservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkservice.swift; sourceTree = "<group>"; };
+		84285CC525F9422E00B99C00 /* CommentNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentNetworkService.swift; sourceTree = "<group>"; };
+		84285CC725F943C400B99C00 /* GetCommentResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentResponce.swift; sourceTree = "<group>"; };
+		84285CC925F9474600B99C00 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,109 @@
 		84285C9D25F6B29100B99C00 /* MVS-N */ = {
 			isa = PBXGroup;
 			children = (
-				84285C9E25F6B29100B99C00 /* AppDelegate.swift */,
-				84285CA025F6B29100B99C00 /* SceneDelegate.swift */,
-				84285CA225F6B29100B99C00 /* ViewController.swift */,
-				84285CA425F6B29100B99C00 /* Main.storyboard */,
-				84285CA725F6B29200B99C00 /* Assets.xcassets */,
-				84285CA925F6B29200B99C00 /* LaunchScreen.storyboard */,
+				84285CB225F6B2A000B99C00 /* Aplication */,
+				84285CB625F6B2EE00B99C00 /* Service */,
+				84285CB725F6B30100B99C00 /* Comments */,
 				84285CAC25F6B29200B99C00 /* Info.plist */,
 			);
 			path = "MVS-N";
+			sourceTree = "<group>";
+		};
+		84285CB225F6B2A000B99C00 /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				84285CB325F6B2B200B99C00 /* Model */,
+				84285CB425F6B2C000B99C00 /* View */,
+				84285CB525F6B2D400B99C00 /* Controller */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
+		84285CB325F6B2B200B99C00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84285CB425F6B2C000B99C00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84285CA925F6B29200B99C00 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84285CB525F6B2D400B99C00 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84285CA025F6B29100B99C00 /* SceneDelegate.swift */,
+				84285C9E25F6B29100B99C00 /* AppDelegate.swift */,
+				84285CC125F819DE00B99C00 /* NetworkService */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84285CB625F6B2EE00B99C00 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				84285CA725F6B29200B99C00 /* Assets.xcassets */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		84285CB725F6B30100B99C00 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				84285CB825F6B30F00B99C00 /* Model */,
+				84285CB925F6B31700B99C00 /* View */,
+				84285CBA25F6B31E00B99C00 /* Controller */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		84285CB825F6B30F00B99C00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84285CBF25F8162000B99C00 /* Comment.swift */,
+				84285CC725F943C400B99C00 /* GetCommentResponce.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84285CB925F6B31700B99C00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84285CA425F6B29100B99C00 /* Comments.storyboard */,
+				84285CBD25F809B000B99C00 /* Commentscell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84285CBA25F6B31E00B99C00 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84285CA225F6B29100B99C00 /* CommentsViewController.swift */,
+				84285CC425F9420200B99C00 /* CommentNetworkService */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84285CC125F819DE00B99C00 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				84285CC225F819FF00B99C00 /* Networkservice.swift */,
+				84285CC925F9474600B99C00 /* NetworkError.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		84285CC425F9420200B99C00 /* CommentNetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				84285CC525F9422E00B99C00 /* CommentNetworkService.swift */,
+			);
+			path = CommentNetworkService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +233,7 @@
 			files = (
 				84285CAB25F6B29200B99C00 /* LaunchScreen.storyboard in Resources */,
 				84285CA825F6B29200B99C00 /* Assets.xcassets in Resources */,
-				84285CA625F6B29100B99C00 /* Main.storyboard in Resources */,
+				84285CA625F6B29100B99C00 /* Comments.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +244,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84285CA325F6B29100B99C00 /* ViewController.swift in Sources */,
+				84285CC025F8162000B99C00 /* Comment.swift in Sources */,
+				84285CA325F6B29100B99C00 /* CommentsViewController.swift in Sources */,
+				84285CC325F819FF00B99C00 /* Networkservice.swift in Sources */,
 				84285C9F25F6B29100B99C00 /* AppDelegate.swift in Sources */,
 				84285CA125F6B29100B99C00 /* SceneDelegate.swift in Sources */,
+				84285CC825F943C400B99C00 /* GetCommentResponce.swift in Sources */,
+				84285CCA25F9474600B99C00 /* NetworkError.swift in Sources */,
+				84285CBE25F809B000B99C00 /* Commentscell.swift in Sources */,
+				84285CC625F9422E00B99C00 /* CommentNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84285CA425F6B29100B99C00 /* Main.storyboard */ = {
+		84285CA425F6B29100B99C00 /* Comments.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84285CA525F6B29100B99C00 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Comments.storyboard;
 			sourceTree = "<group>";
 		};
 		84285CA925F6B29200B99C00 /* LaunchScreen.storyboard */ = {
